@@ -1,0 +1,14 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.datecs.audioreader']" name="managedName">Com.Datecs.AudioreaderNS</attr>
+  <attr path="/api/package[@name='com.datecs.audioreader.rfid']" name="managedName">Com.Datecs.AudioreaderNS.RfidNS</attr>
+  <attr path="/api/package[@name='com.datecs.audioreader.barcode']" name="managedName">Com.Datecs.AudioreaderNS.BarcodeNS</attr>
+  <attr path="/api/package[@name='com.datecs.audioreader.rfid']/class[@name='ContactlessCard']/method[@name='initialize']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.sumup.readerlib.pinplus']/class[@name='TransportState.Counter']" name="visibility">public</attr>
+</metadata>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.iosphere.sumup.pinplus.manchesterlib</groupId>
+  <artifactId>manchesterlib</artifactId>
+  <version>1.1.5</version>
+  <packaging>aar</packaging>
+  <name>SumUp Android Audio library</name>
+  <description>Audio library using native encoder and decode</description>
+  <url>https://github.com/sumup/PinPlusAudioLib/tree/feature/manchesterlib/Android/SumUpPinPlusRelay/libraries/manchesterlib</url>
+  <organization>
+    <name>SumUp Holdings Ltd.</name>
+    <url>https://sumup.co.uk</url>
+  </organization>
+  <developers>
+    <developer>
+      <id>schneider-iosphere</id>
+      <name>Felix Schneider</name>
+      <email>schneider@iosphere.de</email>
+      <url>https://iosphere.de</url>
+    </developer>
+    <developer>
+      <id>weitzj</id>
+      <name>Jan Weitz</name>
+      <email>jan@iosphere.de</email>
+      <url>https://iosphere.de</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:sumup/PinPlusAudioLib.git</connection>
+    <developerConnection>scm:git@github.com:sumup/PinPlusAudioLib.git</developerConnection>
+    <url>scm:git@github.com:sumup/PinPlusAudioLib.git</url>
+  </scm>
+</project>

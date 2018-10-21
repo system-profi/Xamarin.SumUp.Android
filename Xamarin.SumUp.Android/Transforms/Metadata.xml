@@ -1,0 +1,94 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <add-node path="/api/package[@name='com.sumup.merchant.api']">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LoadSumUpPaymentsActivity" static="true" visibility="public">
+    </class>
+  </add-node>
+  <add-node path="/api/package[@name='com.sumup.merchant.controllers']">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="EmvCardReaderControllerContext" static="true" visibility="public">
+    </class>
+  </add-node>
+  <add-node path="/api/package[@name='com.sumup.merchant.ui.Activities']">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CheckoutAPIDrivenPageActivity" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DashboardActivity" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LoginActivity" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusSetupActivity" static="true" visibility="public">
+    </class>
+  </add-node>
+  <add-node path="/api/package[@name='com.sumup.merchant.ui.Fragments']">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ChoosePaymentTypeFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="InformationFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ManualEntryFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PaymentSettingsFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusBluetoothDiscoveryFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusBtMoreHelpFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusBtScanFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusBtToggleFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusErrorFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusNoAudioCableFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusOverlayPageFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PinPlusSetupFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ReadCardFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ReceiptFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SetupFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SignatureFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SmsEntryFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TxFailedFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ApplicationSelectionFragment" static="true" visibility="public">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TerminalFragment" static="true" visibility="public">
+    </class>
+  </add-node>
+  <add-node path="/api/package[@name='com.sumup.merchant.ui.Views']">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ClearableAutoCompleteTextView" static="true" visibility="public">
+    </class>
+  </add-node>
+
+  <attr path="/api/package[@name='com.sumup.merchant.Models']/class[@name='TransactionInfo.Product']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.api']/class[@name='SumUpAPI.Response.ResultCode']" name="managedName">xResultCode</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.serverdriven.model']/class[@name='Reader']/field[@name='PIN_PLUS_READER']" name="managedName">xPIN_PLUS_READER</attr>
+  <attr path="/api/package[@name='com.sumup.merchant']/class[@name='BuildConfig']/field[@name='DEBUG']" name="managedName">xDEBUG</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.api']/class[@name='LoadSumUpPaymentsActivity.CheckoutFlowResponseHandler']/method[@name='onSuccess']/parameter[@name='event']" name="type">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.controllers']/class[@name='FirmwareDownloadController.FirmwareInfoResponseHandler']/method[@name='onSuccess']/parameter[@name='event']" name="type">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.controllers']/class[@name='EmvCardReaderController.ServerResponseHandler']/method[@name='onSuccess']/parameter[@name='event']" name="type">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.helpers']/class[@name='RpcEventProgressHelper.SimpleActionHandler']/method[@name='onSuccess']/parameter[@name='event']" name="type">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.api']/class[@name='ApiParameter']" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.helpers']/class[@name='ScannedPinPlusBluetoothDevice']/method[@name='compareTo']/parameter[@name='measuredDevice']" name="type">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.helpers']/class[@name='ScannedUnkownBTDevice']/method[@name='compareTo']/parameter[@name='measuredDevice']" name="type">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.Models']/class[@name='VatRate']/method[@name='compareTo']/parameter[@name='o']" name="type">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.ui.Adapters']/class[@name='PaymentSettingAdapter']/method[@name='getItem']" name="return">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.Network']/class[@name='NetworkUtils.DownloadTask']/method[@name='doInBackground']/parameter[@name='url']" name="type">java.lang.Object...</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.Network']/class[@name='NetworkUtils.DownloadTask']/method[@name='doInBackground']" name="return">java.lang.Object</attr>
+  <attr path="/api/package[@name='com.sumup.merchant.ui.Fragments']/class[@name='PaymentSettingsFragment.UpdateSettingsHandler']/method[@name='onSuccess']/parameter[@name='event']" name="type">java.lang.Object</attr>
+
+  <remove-node path="/api/package[@name='com.sumup.merchant.util']/class[@name='ViewUtils']/method[@name='getTextView']" />
+  <remove-node path="/api/package[@name='com.sumup.merchant.util']/class[@name='ViewUtils']/method[@name='setLabel']" />
+  <remove-node path="/api/package[@name='com.sumup.merchant.helpers']/class[@name='DatecsReaderHelper']/method[@name='setCardInfo']" />
+</metadata>
